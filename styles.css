@@ -1,2 +1,24 @@
 
+
 /* Your CSS Code here. */
+.holder {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .item {
+        width: 25%;
+        height: 10em;
+        background-color: greenyellow;
+     
+        margin: 5px;
+      }
+
+      .item:nth-child(odd) {
+        background-color: red;
+      }
+      .item:nth-child(even) {
+        background-color: fuchsia;
+      }
